@@ -5,7 +5,7 @@ var chart2 = new Chartist.Pie('#chart2', {
   series: [ 116,  66,  27,  21,  21,  23, 709 ]
 }, {
   donut: true,
-  showLabel: true
+  showLabel: false
 });
 
 chart2.on('draw', function(data) {
